@@ -21,3 +21,6 @@ def board_size_battleships(number):
 
 board_size_battleships()
 '''
+
+#Creating the board
+board = []
