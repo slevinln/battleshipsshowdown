@@ -10,12 +10,16 @@ Current state: Unfinished
 ## Gameplay
 
 The game asks for three inputs at the start: username, grid size and number of ships.
+
 Two boards are then generated, one for the player where his ships are randomly placed.
 The second board represents the computer and does not show the location of his ships. 
+
 The user makes his guesses on this board.
 The player and computer take turns. By choosing a spot on the row and column, 
 he takes a shot at the computer's ships.
+
 Hits or misses are marked on the board. The computer makes a random guess afterwards.
+
 The game ends when either all ships from the player (loss) or the computer (win) have been hit.
 
 ## Features
@@ -45,17 +49,22 @@ Afterwards, the game asks if a rematch should be started.
 ## Testing
 
 The code has been run through the CI Python Linter and reported no issues.
+
 The functionality has been tested in the Gitpod terminal and the Heroku terminal.
 
+
 I have used the PEP8 validator on https://www.codewof.co.nz/style/python3/ to check the style.
-It recommended use of docstrings on line 1 and 15, 
-but due to the short length of the comments I left them as is.
+
+It recommended use of docstrings on line 1 and 15, but due to the short length of the comments I left them as is.
 
 ## Deployment
 
 This project was deployed on the CI mock terminal on Heroku.
 
-To deploy yourself, fork or clone this repository and create a new Heroku app. Set the buildbacks to Python and NodeJS in that order.
+To deploy yourself, fork or clone this repository and create a new Heroku app. 
+
+Set the buildbacks to Python and NodeJS in that order.
+
 Link the Heroku app to the repository and click on Deploy.
 
 ## Credits
